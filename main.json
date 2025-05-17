@@ -1,0 +1,11 @@
+{
+  "name": "RoundedRectangle's Utilities",
+  "description": "My awesome repository",
+
+  "utilities": [
+    {
+      "name": "Ruler",
+      "description": "A ruler. Yes, currently there isn't even an actual utility here..."
+    }
+  ]
+}
