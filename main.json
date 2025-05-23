@@ -5,9 +5,16 @@
   "utilities": [
     {
       "name": "Ruler",
-      "description": "A ruler. Yes, currently there isn't even an actual utility here..."
+      "description": "A ruler. Yes, currently there isn't even an actual utility here...",
+      "data_type": "qmllink",
+      "data": "https://raw.githubusercontent.com/roundedrectangle/utilities-repo/refs/heads/main/utility.qml"
     },
     
-{"name":"Example Utility","description":"x","qml":"import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}"}
+    {
+      "name": "Example Utility",
+      "description": "x",
+      "data_type": "qml",
+      "data": "import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}"
+    }
   ]
 }
