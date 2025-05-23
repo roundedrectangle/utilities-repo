@@ -6,6 +6,8 @@
     {
       "name": "Ruler",
       "description": "A ruler. Yes, currently there isn't even an actual utility here..."
-    }
+    },
+    
+{"name":"Example Utility","description":"x","qml":"import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}"}
   ]
 }
