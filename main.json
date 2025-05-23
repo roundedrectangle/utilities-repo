@@ -15,6 +15,13 @@
       "description": "x",
       "data_type": "qml",
       "data": "import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}"
+    },
+
+    {
+      "name": "Archived Utility",
+      "description": "Example utility which uses archive and multiple files.",
+      "data_type": "archive",
+      "data": "https://github.com/roundedrectangle/utilities-repo/raw/refs/heads/main/utility_test.zip"
     }
   ]
 }
