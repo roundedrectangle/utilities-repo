@@ -1,0 +1,33 @@
+name: Bundle utilities
+
+on: [push]
+
+jobs:
+  build:
+    name: bundle and distribute
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare
+        run: mkdir dist
+
+      - name: Bundle utilities
+        run: |
+          for utility in utilities/*; do
+            zip -r dist/"$utility".zip "$utility"
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: utilities
+          path: dist/
+      
+      - uses: pyTooling/Actions/releaser@r0
+        with:
+          tag: latest
+          rm: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: |
+            dist/*
