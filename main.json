@@ -15,6 +15,14 @@
       "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/componentgallery.zip"
     },
 
+    {
+      "name": "Ohm",
+      "data_type": "archive",
+      "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/ohm.zip"
+    },
+
+
+
 
     {
       "name": "Ruler",
