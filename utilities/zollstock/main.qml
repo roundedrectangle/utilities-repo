@@ -3,6 +3,7 @@ import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
 
 import "pages"
+import "tools"
 
 MainPage {
      ConfigurationGroup {
@@ -15,5 +16,9 @@ MainPage {
 
         onScalingFactorChanged: Helper.scalingFactor = scalingFactor
         Component.onCompleted: Helper.scalingFactor = scalingFactor
+    }
+
+    Helper {
+        id: helper
     }
 }

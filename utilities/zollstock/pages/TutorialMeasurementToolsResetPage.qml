@@ -50,7 +50,7 @@ Dialog {
 
         Item {
             width: parent.width
-            height: Helper.millimeterToPixel(60)
+            height: helper.millimeterToPixel(60)
 
             PositionIndicatorItem {
                 id: resetIndicator
@@ -65,7 +65,7 @@ Dialog {
 
             Image {
                 x: parent.width * 0.45
-                y: Helper.millimeterToPixel(18)
+                y: helper.millimeterToPixel(18)
                 width: parent.width
                 height: parent.width
                 source: "/usr/share/harbour-zollstock/images/tutorial-gesture-thumb.svg"

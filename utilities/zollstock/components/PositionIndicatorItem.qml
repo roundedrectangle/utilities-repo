@@ -15,16 +15,16 @@ Item {
     signal reset()
 
     function setPosition() {
-        position = Helper.snapToMillimeter(y + height / 2)
+        position = helper.snapToMillimeter(y + height / 2)
     }
 
     onYChanged: {
         if (!tutorial) return
 
-        tutorialPos = Helper.snapToMillimeter(y + height / 2)
+        tutorialPos = helper.snapToMillimeter(y + height / 2)
     }
 
-    y: Helper.millimeterToPixel(position) - height / 2
+    y: helper.millimeterToPixel(position) - height / 2
     height: Theme.itemSizeLarge
     width: parent.width
 
@@ -111,8 +111,8 @@ Item {
         drag {
             target: parent
             axis: "YAxis"
-            minimumY: Helper.millimeterToPixel(minPos) - parent.height / 2
-            maximumY: Helper.millimeterToPixel(maxPos) - parent.height / 2
+            minimumY: helper.millimeterToPixel(minPos) - parent.height / 2
+            maximumY: helper.millimeterToPixel(maxPos) - parent.height / 2
         }
 
         onMouseYChanged: setPosition()

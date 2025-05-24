@@ -58,7 +58,7 @@ Dialog {
         Item {
             id: zollstockSample
             width: parent.width
-            height: Helper.millimeterToPixel(60)
+            height: helper.millimeterToPixel(60)
 
             PositionIndicatorItem {
                 id: firstIndicator

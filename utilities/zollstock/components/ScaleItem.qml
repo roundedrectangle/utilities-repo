@@ -7,13 +7,13 @@ Item {
     property int length: 20
 
     width: parent.width
-    height: Helper.millimeterToPixel(length + 1)
+    height: helper.millimeterToPixel(length + 1)
 
     Repeater {
         model: parent.length + 1
 
         Rectangle {
-            y: Helper.millimeterToPixel(index)
+            y: helper.millimeterToPixel(index)
             anchors.right: parent.right
             width: {
                 var value = 50

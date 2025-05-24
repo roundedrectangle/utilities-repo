@@ -58,7 +58,7 @@ Page {
                 topMargin: Theme.itemSizeLarge
             }
             width: parent.width
-            height: Helper.millimeterToPixel(settings.maximumLength) + Theme.itemSizeLarge * 2
+            height: helper.millimeterToPixel(settings.maximumLength) + Theme.itemSizeLarge * 2
 
             PositionIndicatorItem {
                 id: firstIndicator
@@ -91,8 +91,8 @@ Page {
         VerticalScrollDecorator { id: scrollDecorator }
     }
 
-    onStatusChanged: {
-        if (status !== PageStatus.Active) return
-        pageStack.pop(pageStack.previousPage())
-    }
+    // onStatusChanged: {
+    //     if (status !== PageStatus.Active) return
+    //     pageStack.pop(pageStack.previousPage())
+    // }
 }
