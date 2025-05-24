@@ -15,7 +15,7 @@ jobs:
       - name: Bundle utilities
         run: |
           for utility in utilities/*; do
-            zip -r dist/"$utility".zip "$utility"
+            zip -r dist/"$(basename "$utility")".zip "$utility"
           done
 
       - name: Upload artifact
@@ -24,7 +24,8 @@ jobs:
           name: utilities
           path: dist/
       
-      - uses: pyTooling/Actions/releaser@r0
+      - name: Upload release
+        uses: pyTooling/Actions/releaser@r0
         with:
           tag: latest
           rm: true
