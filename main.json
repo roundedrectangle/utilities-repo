@@ -14,7 +14,8 @@
       "name": "Example Utility",
       "description": "x",
       "data_type": "qml",
-      "data": "import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}"
+      "data": "import QtQuick 2.0\nimport Sailfish.Silica 1.0\nPage{SilicaFlickable{anchors.fill:parent\nLabel{text:\"Example Utility\"}}}",
+      "about_page": "https://raw.githubusercontent.com/roundedrectangle/utilities-repo/refs/heads/main/myabout.qml"
     },
 
     {
