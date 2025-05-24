@@ -35,6 +35,12 @@
       "name": "Zollstock",
       "data_type": "archive",
       "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/zollstock.zip"
+    },
+
+    {
+      "name": "Silica Components Gallery",
+      "data_type": "archive",
+      "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/componentgallery.zip"
     }
   ]
 }
