@@ -23,6 +23,12 @@
       "description": "Example utility which uses archive and multiple files.",
       "data_type": "archive",
       "data": "https://github.com/roundedrectangle/utilities-repo/raw/refs/heads/main/utility_test.zip"
+    },
+
+    {
+      "name": "Bundled Utility",
+      "data_type": "archive",
+      "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/utility1.zip"
     }
   ]
 }
