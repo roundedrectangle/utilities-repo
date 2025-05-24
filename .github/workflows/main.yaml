@@ -1,6 +1,9 @@
 name: Bundle utilities
 
-on: [push]
+on:
+  push:
+    paths:
+      - utilities/**
 
 jobs:
   build:
