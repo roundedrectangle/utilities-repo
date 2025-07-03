@@ -17,6 +17,7 @@ Page {
     }
 
     allowedOrientations: Orientation.Portrait
+    Component.onCompleted: console.log(pageStack)
 
     RemorsePopup { id: remorse }
 
