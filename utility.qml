@@ -29,5 +29,6 @@ Page {
                 font.pixelSize: Theme.fontSizeExtraLarge
             }
         }
+        Component.onCompleted: console.log(pageStack)
     }
 }
