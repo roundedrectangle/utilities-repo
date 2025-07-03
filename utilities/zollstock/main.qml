@@ -6,7 +6,7 @@ import "pages"
 import "tools"
 
 MainPage {
-     ConfigurationGroup {
+    ConfigurationGroup {
         id: settings
         path: "/apps/harbour-zollstock"
         synchronous: true
