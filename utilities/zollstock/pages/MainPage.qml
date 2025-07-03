@@ -107,8 +107,8 @@ Page {
         property int maximumLength: 2000
         property real scalingFactor: 1.0
 
-        onScalingFactorChanged: Helper.scalingFactor = scalingFactor
-        Component.onCompleted: Helper.scalingFactor = scalingFactor
+        onScalingFactorChanged: helper.scalingFactor = scalingFactor
+        Component.onCompleted: helper.scalingFactor = scalingFactor
     }
 
     Helper {
