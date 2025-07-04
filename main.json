@@ -2,6 +2,8 @@
   "name": "RoundedRectangle's Utilities",
   "description": "My awesome repository",
   "banner": "https://raw.githubusercontent.com/roundedrectangle/utilities-repo/refs/heads/main/banner.jpeg",
+  "icon": "https://raw.githubusercontent.com/roundedrectangle/utilities-repo/refs/heads/main/icon.jpg",
+  "rounded_icon": true,
 
   "utilities": [
     {
