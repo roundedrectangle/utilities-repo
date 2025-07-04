@@ -9,7 +9,8 @@
     {
       "name": "Zollstock",
       "data_type": "archive",
-      "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/zollstock.zip"
+      "data": "https://github.com/roundedrectangle/utilities-repo/releases/download/latest/zollstock.zip",
+      "icon": "https://raw.githubusercontent.com/black-sheep-dev/harbour-zollstock/refs/heads/master/icons/512x512/harbour-zollstock.png"
     },
 
     {
